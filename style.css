@@ -105,3 +105,42 @@ button {
 button:hover {
   opacity: 0.8;
 }
+.feed {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  width: 90%;
+  max-width: 800px;
+  margin: 40px auto 0 auto;
+}
+
+.post img {
+  width: 100%;
+  border: 1px solid rgba(255,255,255,0.3);
+  cursor: pointer;
+}
+
+.meta {
+  font-size: 10px;
+  opacity: 0.5;
+  margin-top: 8px;
+  letter-spacing: 1px;
+}
+
+.caption {
+  font-size: 12px;
+  opacity: 0.8;
+  margin-top: 6px;
+  line-height: 1.4;
+}
+
+.text {
+  padding: 20px;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.text-content {
+  font-size: 14px;
+  opacity: 0.85;
+  line-height: 1.6;
+}
