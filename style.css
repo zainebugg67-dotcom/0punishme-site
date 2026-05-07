@@ -153,3 +153,16 @@ button:hover {
 .img-wrap:hover .overlay-caption {
   opacity: 1;
 }
+behold-widget {
+  width: 100%;
+}
+
+behold-widget img {
+  filter: contrast(1.1) grayscale(10%);
+  transition: 0.3s ease;
+}
+
+behold-widget img:hover {
+  transform: scale(1.02);
+  filter: invert(1);
+}
